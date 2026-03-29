@@ -16,3 +16,12 @@ Command output:
 
 De unde vine răspunsul — de la serverul tău DNS sau dintr-o suprascriere locală?
 - raspunsul vine de la serverul meu DNS, care nu gaseste domeniul wiki.local, comanda nslookup nu foloseste fisierul hosts
+
+## Sarcina 3 — Urmărește traseul
+Command output:
+![Tracert](images/s3.png)
+
+Câte hopuri până se întrerupe? Unde se oprește?
+- 5 hopuri pana la intrerupere. Dupa hopul 5 (la 10.221.100.116) traseul se opreste si apare doar "Request timed out."
+
+
