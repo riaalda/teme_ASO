@@ -41,6 +41,6 @@ Ce s-a schimbat? Este accesibil acum? De ce?
 
 - instrument/sistem care ar fi putut cauza aceasta greseala automat: sistem de configurare automat/sistem de deployment
 
--prevenire: verificarea regulata a fisierului hosts pentru a evita configurari gresite
+- prevenire: verificarea regulata a fisierului hosts pentru a evita configurari gresite
 
 
