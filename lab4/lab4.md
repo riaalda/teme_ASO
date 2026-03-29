@@ -24,4 +24,13 @@ Command output:
 Câte hopuri până se întrerupe? Unde se oprește?
 - 5 hopuri pana la intrerupere. Dupa hopul 5 (la 10.221.100.116) traseul se opreste si apare doar "Request timed out."
 
+## Sarcina 4 — Rezolvă problema
+Command output:
+![Ping fix](images/s4.png)
+
+Ce s-a schimbat? Este accesibil acum? De ce?
+- domeniul wiki.local se rezolva la adresa 127.0.0.1 (s-a schimbat adresa in 127.0.0.1 in loc de 1.2.3.4)
+- este accesibil si raspunde corect deoarece cererea e directionata catre localhost astfel:
+  Pinging wiki.local [127.0.0.1]
+  Reply from 127.0.0.1
 
