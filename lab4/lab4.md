@@ -31,6 +31,7 @@ Command output:
 Ce s-a schimbat? Este accesibil acum? De ce?
 - domeniul wiki.local se rezolva la adresa 127.0.0.1 (s-a schimbat adresa in 127.0.0.1 in loc de 1.2.3.4)
 - este accesibil si raspunde corect deoarece cererea e directionata catre localhost astfel:
+  
   Pinging wiki.local [127.0.0.1]
   Reply from 127.0.0.1
 
