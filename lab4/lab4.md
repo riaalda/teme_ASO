@@ -33,5 +33,14 @@ Ce s-a schimbat? Este accesibil acum? De ce?
 - este accesibil si raspunde corect deoarece cererea e directionata catre localhost astfel:
   
   Pinging wiki.local [127.0.0.1]
+  
   Reply from 127.0.0.1
+
+## Sarcina 5 — Reflecție
+- cauza principala a problemei: adresa IP 1.2.3.4 din hosts este invalida, adica domeniul wiki.local a fost directionat catre o adresa gresita, ce nu exista in retea
+
+- instrument/sistem care ar fi putut cauza aceasta greseala automat: sistem de configurare automat/sistem de deployment
+
+-prevenire: verificarea regulata a fisierului hosts pentru a evita configurari gresite
+
 
