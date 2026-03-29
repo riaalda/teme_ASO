@@ -1,1 +1,1 @@
-# Laborator 4
+![Ping](images/s1.png)
