@@ -1,0 +1,48 @@
+@model TodoApp.Models.RegisterViewModel
+@{
+    ViewData["Title"] = "Inregistrare";
+}
+
+<div class="auth-page">
+    <div class="auth-card">
+        <div class="auth-header">
+            <span class="auth-icon">✓</span>
+            <h1>Cont nou</h1>
+            <p>Creeaza-ti contul gratuit</p>
+        </div>
+
+        <form asp-action="Register" method="post">
+            @Html.AntiForgeryToken()
+            @if (!ViewData.ModelState.IsValid)
+            {
+                <div asp-validation-summary="All" class="validation-summary"></div>
+            }
+
+            <div class="form-group">
+                <label asp-for="Username">Nume utilizator</label>
+                <input asp-for="Username" class="form-input" placeholder="ex: ion_popescu" autofocus />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Email">Email</label>
+                <input asp-for="Email" class="form-input" placeholder="ex: ion@email.com" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Password">Parola</label>
+                <input asp-for="Password" type="password" class="form-input" placeholder="minim 3 caractere" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ConfirmPassword">Confirma parola</label>
+                <input asp-for="ConfirmPassword" type="password" class="form-input" placeholder="••••••" />
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-full">Creeaza cont</button>
+        </form>
+
+        <div class="auth-footer">
+            Ai deja cont? <a asp-controller="Account" asp-action="Login">Autentifica-te</a>
+        </div>
+    </div>
+</div>
